@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <title>Signup</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="menubar">
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+      <nav class="side-bar">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="templates/work.html">Work</a></li>
+          <li><a href="templates/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <form id="myForm">
+        <input
+          type="text"
+          name="Name"
+          id="name"
+          placeholder="Name..."
+          required
+        />
+        <br /><br />
+        <input
+          type="email"
+          name="Email_address"
+          id="Email_address"
+          placeholder="Enter your valid Email Email_Address"
+          required
+        />
+        <i class="far fa-envelope"></i>
+        <br />
+        <br />
+
+        <textarea
+          type="text"
+          name="msg"
+          id="msg"
+          placeholder="Message"
+          required
+        ></textarea>
+
+        <br />
+      </form>
+      <button type="submit">Submit</button>
+    </div>
+  </body>
+</html>
